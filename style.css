@@ -1,0 +1,315 @@
+/* Reset Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather sans', sans-serif;
+    background-color: #ccc;
+}
+
+/* Navigation Bar*/
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    z-index: 1000;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    margin: 10px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: solid;
+}
+
+/* Hero Section */
+.hero{
+    background-image: url(Black\ Abstract_LE_auto_x2.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    padding-top: 140px;
+    text-decoration: solid;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+}
+
+.custom-bu {
+    padding: 10px 20px;
+    margin:  5px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* About Me Section */
+.about {
+    padding: 60px 20px;
+    margin-top: 40px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+.profile-picture {
+    width: 40px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+    }
+    
+    .profile-info {
+    flex: 1;
+    padding: 20px;
+    }
+    
+    @media (min-width: 768px) {
+    .about-content {
+    flex-direction: row;
+    }
+    .profile-wrapper {
+    flex-wrap: nowrap;
+    }
+    .profile-picture {
+    width: 250px;
+    height: 250px;
+    }
+    .profile-info {
+    padding: 40px;
+    }
+    }
+    
+.custom-hr {
+    border: none;
+    height: 3px;
+    background-color: #333;}
+
+
+/* Skills Section */
+.skills {
+    padding: 60px 20px;
+    margin-top: 40px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    display: inline-block;
+    width: 100px;
+}
+
+.progress {
+    width: 200px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+}
+
+/* Skills section*/
+.experience {
+    padding: 60px 20px;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px 20px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.filter-button {
+    padding: 10px 20px;
+    margin:  5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 300px;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project-card{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+}
+
+.project-card img {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card h3 {
+    margin: 15px 0 10px;
+}
+
+.project-card p {
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+footer {
+	background-color: #333;
+    background-image: url(Black\ Abstract_LE_auto_x2.jpg);
+    background-size: cover;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+        padding-top: 120px;
+    }
+    
+    .about, .projects, .contact {
+        padding: 40px 20px;
+    }
+    
+    .project-card {
+        padding: 15px;
+    }
+    
+    .project-card img {
+        max-height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        margin: 5px;
+    }
+    
+    .hero {
+        padding: 40px 10px;
+        padding-top: 100px;
+    }
+    
+    .about, .projects, .contact {
+        padding: 20px 10px;
+    }
+    
+    .project-card {
+        padding: 10px;
+    }
+    
+    .project-card img {
+        max-height: 120px;
+    }
+}

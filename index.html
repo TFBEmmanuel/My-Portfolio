@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"/>
+     <style>
+        /* Add smooth scrolling behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+     </style>
+
+</head>
+<body>
+    <!-- Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section-->
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Oamen Emmanuel | Frontend Developer</h1>
+            <P><b>Showcasing my skills and projects</b></P>
+        <button class="custom-bu"><a href="#projects" class="btn" ><b>View Projects</b></a></button> 
+        </div>
+    </section>
+
+   <!-- About Me Section -->
+ <section id="about" class="about">
+    <h2 style="display: flex; justify-content: center;">About Me</h2>
+    <div class="about-content">
+        <div class="profile-wrapper">
+            <img src="my image.jpg" alt="profile picture" class="profile picture" width="300" height="300">
+            <div class="profile-info">
+                <p>
+                    My name is Oamen Osemudiame Emmanuel. I am a passionate frontend developer with a keen interest in crafting beautiful and user-friendly web experiences. I recently completed the Advanced Frontend Certification Course from New Horizons, where I honed my skills in HTML, CSS, and JavaScript.
+                </p>
+                <p>
+                    During my time at New Horizons, I had the opportunity to work on various projects, allowing me to develop my problem-solving abilities and attention to detail. I thrive in collaborative environments and am always eager to learn and adapt to new technologies and methodologies.
+                </p>
+                <p>
+                    In addition to my technical skills, I am a creative thinker with a strong eye for design. I believe that effective web development is not only about writing clean code but also about creating visually appealing and intuitive interfaces that delight users.
+                </p>
+                <p>
+                    Outside of coding, I enjoy building PC's and playing football in my spare time, and I am constantly seeking inspiration from the world around me to incorporate into my work.
+                </p>
+        </div>
+    </div>
+ </div>  
+ </section>
+    <hr class="custom-hr">
+    
+     <!-- Skills Section -->
+     <section id="skills" class="skills">
+        <h2 style="text-align: center;">Technical Skills</h2>
+        <ul>
+            <li style="display: flex; justify-content:center ;">
+                <span class="skill-name">HTML</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;">90%</div>
+                </div>
+            </li>
+            <br>
+            <li style="display: flex; justify-content: center;">
+                <span class="skill-name">CSS</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+            </li>
+            <br>
+            <li style="display: flex; justify-content: center;">
+                <span class="skill-name">JavaScript</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%;">70%</div>
+                </div>
+            </li>
+            <!-- Add more skills with corresponding progress bars -->
+        </ul>
+    </section>
+    <hr class="custom-hr">
+
+    <!-- Experience Section -->
+ <section id="experience" class="experience">
+    <div class="experience-content">
+    <h2 style="display: flex; justify-content: center;">Experience</h2>
+    <p style="display: flex; justify-content: center;">I have worked with certain technologies such as HTML, CSS and JAVASCRIPT during my internship in New Horizon at Bells University of Technology taking the Advanced Frontend Certification Course.</p>
+    </div>
+ </section>
+ <hr class="custom-hr">
+ <br>
+ <br>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 style="display: flex; justify-content: center; align-items: center;">Projects</h2>
+        <div class="filter-buttons">
+            <button class="filter-button" data-category="all">All</button>
+            <button class="filter-button" data-category="entertainment">Entertainment</button>
+            <button class="filter-button" data-category="utility">Utility</button>
+        </div>
+        <div class="project-grid">
+            <div class="project-card" data-category="entertainment">
+                <img src="portfolio website - Brave 5_18_2024 1_30_27 PM.png" alt="Diceroll Simulator">
+                <h3>Diceroll Simulator</h3>
+                <p>A die-throw simulator is a digital tool that mimics the rolling of a die, generating random numbers between one and six to replicate the outcome of a physical die throw made using HTML, CSS and JavaScript</p>
+            <a href="Diceroll simulator.html">Diceroll Simulator</a>
+            </div>
+            <div class="project-card" data-category="utility">
+                <img src="Diceroll simulator - Brave 5_18_2024 1_41_31 PM.png" alt="Basic calculator">
+                <h3>Basic Calculator</h3>
+                <p>A basic calculator is an application that performs simple arithmetic operations such as addition, subtraction, multiplication, and division made using HTML, CSS and JavaScript</p>
+            <a href="Basic calculator.html">Basic Calculator</a>
+            </div>
+            <div class="project-card" data-category="entertainment">
+                <img src="scissors.png" alt="Rock paper sciccors game">
+                <h3>Rock Paper Scissors Game</h3>
+                <p>A rock-paper-scissors game is a digital version of the classic hand game where the user plays against the computer, choosing between rock, paper, and scissors made using Html, Css and JavaScript</p>
+                <a href="rock, paper, scissors.html">Rock Paper Scissors</a>
+            </div>
+            <div class="project-card" data-category="utility">
+                <img src="BMI Calculator - Brave 5_19_2024 5_46_50 PM.png" alt="BMI calculator">
+                <h3>Body Mass Index Calculator</h3>
+                <p> This user-friendly tool is designed to help you quickly and accurately calculate your BMI, providing valuable insights into your overall health. Made using html, css and JavaScript</p>
+                <a href="BMI calculator.html">Body Mass Index Calculator</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <h3>Feel free to contact me through the infomation below</h3>
+    <div class="contact-info">
+        <p>Email: emmanuelchinedu426@gmail.com</p>
+        <p>Phone: +2349083435570</p>
+    </div>
+</section>
+
+        <footer> 
+            <h2>&copy; <span id="year"></span> Oamen Emmanuel</h2>
+            <p id="datetime"></p>
+        </footer>
+        <!-- JavaScript -->
+        <script src="portfolio website.js"></script>
+</body>
+</html>
